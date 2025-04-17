@@ -1,4 +1,64 @@
-This is my second project using OOPS.
+This is my second project using Object-Oriented Programming (OOP) in Python.
 
-I've tried to create the infamous snake game and learn OOPS better through this project.
+I've recreated the classic Snake Game using multiple classes and modules to strengthen my understanding of OOP concepts through practical application.
+
+---
+
+## 🚀 Features
+
+- Snake movement controlled via arrow keys
+- Random food generation
+- Snake grows upon eating food
+- Scoreboard updates in real-time
+- Collision detection:
+  - Snake hits wall = Game Over
+  - Snake collides with itself = Game Over
+- Game boundary rendering with Turtle graphics
+
+---
+
+## 🧠 OOP Concepts Practiced
+
+- Class and object creation
+- Encapsulation (each module has a separate responsibility)
+- Inheritance (used in `Scoreboard` class)
+- Modular design and code organization
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- Turtle Graphics module (for GUI rendering)
+- Random module (for food placement)
+- Time module (for controlling game speed)
+
+---
+
+## 📂 Project Structure
+Snake Game/ │ 
+├── main.py # Entry point - handles game loop and controls 
+├── snake.py # Snake class - handles creation, movement, growth 
+├── movement.py # Movement class - controls direction input 
+├── Food.py # Food class - handles spawning food 
+├── scorecard.py # Scoreboard class - tracks and displays score 
+├── GameBoundary.py # Game boundary class - draws borders and checks collision 
+|── README.md # You're reading it!
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/snake-game-oop.git
+
+2. Navigate into the folder:
+
+3. Run the game:
+
+
+
+## 🙏 Acknowledgments
+
+Big thanks to OpenAI ChatGPT for guiding me throughout this project and helping me debug and structure the game step-by-step.
+
 
